@@ -1,35 +1,60 @@
 h1 {
-   color: greenyellow;
+  color: blue;
 }
 
-.home-card {
-   text-align: center;
-   border: 3px solid black;
+/* property : value */
+#home-intro{
+  text-align: center;
+  border: 3px solid blue;
+
 }
-#p1 {
-   color: red; 
+
+#home-intro:hover{
+  background-color: burlywood;
 }
+
+#p2{
+  color: blue;
+}
+
+#nav{
+  text-align: center;
+  background-color: rgb(54, 42, 165);
+  height: 25px;
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+
+#nav a{
+  margin: 0px 5px;
+  text-decoration: none;
+  color: white;
+}
+
 #card{
-   text-align: center;
-   background-color: aqua;
-   box-shadow: 10px 10px 5px grey;
+  align-items: center;
+  margin-top: 5px;
+  height: 580px;
+  width: 300px;
+  border: 3px solid blue;
+  margin: 3px auto;
+  border-radius: 5px;
 }
-#nav-bar {
-   text-align: center;
-   margin: 10px;
-    border: 3px solid black;
-  
-   margin-bottom: 10px;
-   gap: 20px;
 
+#card-img{
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  margin:  auto;
+  border-radius: 8px;
 }
-#nav-bar a {
-   margin: 0 10px;
-}  
-.home-card:hover {
-   background-color: blue;
-   color: white;
+
+img{
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
 }
-#nav-bar a:hover {
-   color: greenyellow;
+
+#action{
+  text-align: center;
 }
